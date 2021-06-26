@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: teal;
+}
+.app{
+   position: absolute;
+   top: 10%;
+   left: 30%; 
+}
+.app .mainHeading h1{
+    color: white;
+    text-align: center;
+}
+
+.app h1,h2{
+    color: white;
+    text-align: center;
+}
+
+.app .input{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.app .input{
+    margin-top: 10px;
+    width: 20rem;
+    height: 2rem;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.app .input input{
+    width: 100%;
+    border-color: transparent;
+    outline-color: transparent;
+}
+
+.app i{
+    cursor: pointer;
+    font-size: large;
+    color: gray;
+    margin-right: 5px;
+}
+
+.app .todos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.app .todos .todo{
+    margin-top: 2rem;
+    width: 21rem;
+    height: 2.5rem;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.app .todos .todo .left{
+    display: flex;
+    padding-top: .5rem;
+    align-items: center;
+    justify-content: left;
+    font-weight: 900;
+    padding-left: .5rem;
+}
+
+.app .todos .todo .left p{
+    padding-left: .8rem;
+}
+
+.app .todos .todo .right i{
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: center;
+    margin-top: -20px;
+    margin-left: 19rem;
+
+}
